@@ -1,0 +1,27 @@
+STRATEGY DOCUMENT
+====================
+1. Contract Selection Algorithm:
+   - Multi-factor heuristic: Efficiency (Reward/Time) × Urgency × Skill-Farming Bonus.
+   - Early game prioritizes contracts that close skill gaps for mid/high-difficulty unlocks.
+   - Hard filters enforce skill thresholds and 5-contract portfolio limit.
+
+2. Route Optimization Approach:
+   - Brute-force permutation (≤120 combos) evaluates all orderings.
+   - Discards sequences violating hard deadlines.
+   - Selects minimum total travel+execution time while preserving feasibility.
+
+3. Skill Progression Modeling:
+   - Linear gain: +Difficulty × 0.3 per completion, capped at 10.0.
+   - Threshold requirement: Skill must reach (Difficulty × 0.5) to accept contract.
+   - Creates compounding feedback loop: complete → level up → unlock higher tiers.
+
+4. Complications & Trap Detection:
+   - Traps: Detected upon acceptance. Abandoned if reputation cost < long-term deadline risk.
+   - Complications: 20% RNG trigger multiplies execution by 1.5x. Handled dynamically.
+   - Reputation stacks multiplicatively (0.9^fails), forcing adaptive risk management.
+
+5. Tradeoffs Considered:
+   - Gold vs Risk: High-reward traps abandoned early to preserve reputation multiplier.
+   - Speed vs Skill Farming: Early inefficiency accepted to unlock Tier 6+ contracts by Day 80.
+   - Route Flexibility: Pipeline of 2-3 backups maintained to fill slots immediately.
+   - Hard Stop: All paths weighted to ensure zero idle days after Day 180.

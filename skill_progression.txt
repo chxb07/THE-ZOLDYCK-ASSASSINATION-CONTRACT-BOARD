@@ -1,0 +1,21 @@
+SKILL PROGRESSION LOG
+==================================================
+Starting Skills: {'Combat': 3.2, 'Stealth': 3.8000000000000003, 'Tracking': 2.0, 'Poison': 8.299999999999999, 'Nen': 4.4}
+
+Day   7: +0.60 Nen (now 2.60) | Contract 6 completed
+Day  19: +1.20 Combat (now 3.20) | Contract 25 completed
+Day  34: +0.60 Nen (now 3.20) | Contract 15 completed
+Day  56: +1.20 Poison (now 3.20) | Contract 11 completed
+Day  69: +1.20 Stealth (now 3.20) | Contract 44 completed
+Day  79: +0.90 Poison (now 4.10) | Contract 27 completed
+Day  85: +0.60 Stealth (now 3.80) | Contract 22 completed
+Day 107: +1.50 Poison (now 5.60) | Contract 30 completed
+Day 119: +1.20 Nen (now 4.40) | Contract 24 completed
+Day 193: +2.70 Poison (now 8.30) | Contract 3 completed
+
+Final Skills:
+  Combat: 3.20/10.0
+  Stealth: 3.80/10.0
+  Tracking: 2.00/10.0
+  Poison: 8.30/10.0
+  Nen: 4.40/10.0
