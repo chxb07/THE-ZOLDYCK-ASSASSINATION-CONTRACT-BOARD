@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "city": "A",
+    "gold": 500,
+    "deadline": 50,
+    "duration": 3,
+    "required_skills": {"stealth": 1},
+    "trap": false,
+    "complication": true
+  },
+  {
+    "id": 2,
+    "city": "B",
+    "gold": 800,
+    "deadline": 80,
+    "duration": 4,
+    "required_skills": {"stealth": 2},
+    "trap": false,
+    "complication": false
+  }
+]
